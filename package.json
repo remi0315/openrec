@@ -1,0 +1,36 @@
+{
+  "name": "openrec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:assets": "WEBPACK_ENV=development webpack -w",
+    "build:assets": "WEBPACK_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remi0315/openrec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remi0315/openrec/issues"
+  },
+  "homepage": "https://github.com/remi0315/openrec#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
