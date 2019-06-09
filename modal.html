@@ -8,48 +8,109 @@
     <link rel="stylesheet" href="static/styles.css" />
 </head>
 <body>
-    <div class="modal">
-        <div class="modal-header">
-            
-
-        </div>
-        <div class="modal-body">
-            <div class="modal-body-login_form"></div>
-            <div class="modal-body-sns">
-                <div class="modal_sns"> 
-                    <div class="modal_sns-title">外部サイトIDでログイン</div>
-                    <div class="modal_sns-body">
-                        <ul class="l-modal_sns_btn_list">
-                            <li>
-                                <div class="modal_sns_btn_list">
-                                    <a href="" class="modal_sns_list-item modal_sns_list-item--facebook">
-                                        Facebook</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="modal_sns_btn_list">
-                                    <a href="" class="modal_sns_list-item modal_sns_list-item--google">Google+</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="modal_sns_btn_list">
-                                    <a href="" class="modal_sns_list-item modal_sns_list-item--twitter">Twitter</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="modal_sns_btn_list">
-                                    <a href="" class="modal_sns_list-item modal_sns_list-item--yahoo">Yahoo</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="modal_sns_btn_list">
-                                <a href="" class="modal_sns_list-item modal_sns_list-item--github">GitHub</a>
-                                </div>
-                            </li>
-                        </ul>
-                </div>
+    <div id="jsModalBg" class="l-modal_bg"></div>
+    <div class="l-modal">
+        <div class="modal">
+            <div class="modal-header">
+                ログイン
             </div>
-        </div> 
+            <div class="modal-body">
+                <div class="modal-body-login_form">
+                    <div class="l-register">
+                        <div class="register">
+                            <div class="register-mail">
+                                <div class="register-mail-title">
+                                    メールアドレスでログイン
+                                </div>
+                                <div class="register-mail-input register-mail-input--login">
+                                    <ul class="l-register_mail_input">
+                                    <li>
+                                        <div class="register_mail_input jsLoginMailAddress">
+                                            <div class="form_input form_input--326_48">
+                                                <input type="text" placeholder="メールアドレス" id="jsLoginMailAddress" class="form_input-control jsModalInput">
+                                            </div>
+                                            <!-- <div class="l-form_input_error is-hidden">
+                                                <div class="form_input_error">半角数字のみで入力してください</div>
+                                            </div> -->
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="register_mail_input jsLoginPassword">
+                                        <div class="form_input form_input--326_48">
+                                            <input type="password" placeholder="パスワード" id="jsLoginPassword" class="form_input-control jsModalInput">
+                                        </div>
+                                        <!-- <div class="l-form_input_error is-hidden">
+                                            <div class="form_input_error">パスワードを入力してください</div>
+                                        </div> -->
+                                        </div>
+                                    </li>
+                                    </ul>
+                                </div>
+                                <div class="l-password_forget">
+                                    <div class="password_forget">
+                                    パスワードを忘れた方は<a href="javascript:void(0)" id="jsPasswordForgetLink">こちら</a>
+                                    </div>
+                                </div>
+                                <div class="l-login_auto">
+                                    <div class="login_auto">
+                                    <label>
+                                        <input type="checkbox">
+                                        <i></i>
+                                        次回から自動的にログイン
+                                    </label>
+                                    </div>
+                                </div>
+                                <div class="l-register_send_mail l-register_send_mail--login">
+                                    <div class="register_send_mail">
+                                    <a href="javascript:void(0)" id="jsLoginActionBtn" class="btn btn--326_48 btn--action">ログイン</a>
+                                    </div>
+                                </div>
+                                <div class="l-register_login_text">
+                                    <div class="register_login_text">
+                                    ユーザー登録をお済みでない方は<a href="" class="register_login_text-link">こちら</a>から登録
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="register-sns">
+                                <div class="modal_sns"> 
+                                    <div class="modal_sns-title">外部サイトIDでログイン</div>
+                                    <div class="modal_sns-body">
+                                        <ul class="l-modal_sns_btn_list">
+                                            <li>
+                                                <div class="modal_sns_btn_list">
+                                                    <a href="" class="modal_sns_list-item modal_sns_list-item--facebook">
+                                                        Facebook</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="modal_sns_btn_list">
+                                                    <a href="" class="modal_sns_list-item modal_sns_list-item--google">Google+</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="modal_sns_btn_list">
+                                                    <a href="" class="modal_sns_list-item modal_sns_list-item--twitter">Twitter</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="modal_sns_btn_list">
+                                                    <a href="" class="modal_sns_list-item modal_sns_list-item--yahoo">Yahoo</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="modal_sns_btn_list">
+                                                <a href="" class="modal_sns_list-item modal_sns_list-item--github">GitHub</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
         </div>
     </div>
     <div id="aa">
